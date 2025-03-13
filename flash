@@ -1,0 +1,359 @@
+ int lr = 7 ;
+ int lg = 6 ;
+ int lb = 5 ;
+ int ly = 4 ;
+ int lo = 3 ; 
+ int lp = 2 ; 
+ int lpi = 1 ;
+ int ls = 0  ;
+
+ 
+ void setup() {
+  pinMode(lr,OUTPUT);
+  pinMode(lg,OUTPUT); 
+  pinMode(lb,OUTPUT);
+  pinMode(ly,OUTPUT);
+  pinMode(lo,OUTPUT); 
+  pinMode(lp,OUTPUT);
+  pinMode(lpi,OUTPUT); 
+  pinMode(ls,OUTPUT); 
+
+}
+
+void loop() {
+ // flash all leds
+digitalWrite(lr, HIGH);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, HIGH); 
+delay(500); 
+
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500); 
+
+digitalWrite(lr, HIGH);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, HIGH); 
+delay(500); 
+
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500);  
+digitalWrite(lr, HIGH);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, HIGH); 
+delay(500); 
+
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(1000); 
+//flash red
+digitalWrite(lr, HIGH);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500); 
+//green
+digitalWrite(lr, LOW);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500); 
+//blue
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500); 
+//yellwo
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500); 
+//orange
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500); 
+//perpel
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500); 
+//pink
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, LOW); 
+delay(500); 
+//sky
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, HIGH); 
+delay(1000); 
+// convconverging
+digitalWrite(lr, HIGH);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, HIGH); 
+delay(500);
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, LOW); 
+delay(500);
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500);
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(1000);
+//diverging
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500);
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, LOW); 
+delay(500);  
+
+digitalWrite(lr, HIGH);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, HIGH); 
+delay(1000); 
+//pin pong 
+digitalWrite(lr, HIGH);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, LOW); 
+delay(500);  
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, HIGH); 
+delay(500); 
+
+digitalWrite(lr, HIGH);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, LOW); 
+delay(500);  
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, HIGH); 
+delay(1000);  
+// snak
+digitalWrite(lr, HIGH);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500);
+
+digitalWrite(lr, HIGH);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500);
+
+digitalWrite(lr, HIGH);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500); 
+
+digitalWrite(lr, HIGH);
+digitalWrite(lg, HIGH); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, HIGH); 
+delay(500);
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, HIGH); 
+digitalWrite(ly, HIGH); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, HIGH); 
+delay(500); 
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, HIGH); 
+digitalWrite(lp, HIGH); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, HIGH); 
+delay(500); 
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, HIGH); 
+digitalWrite(ls, HIGH); 
+delay(500); 
+
+digitalWrite(lr, LOW);
+digitalWrite(lg, LOW); 
+digitalWrite(lb, LOW); 
+digitalWrite(ly, LOW); 
+digitalWrite(lo, LOW); 
+digitalWrite(lp, LOW); 
+digitalWrite(lpi, LOW); 
+digitalWrite(ls, LOW); 
+delay(500);
+
+
+
+}
